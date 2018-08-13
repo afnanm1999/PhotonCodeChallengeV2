@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFD0E44F2122192200992D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0E44E2122192200992D10 /* AppDelegate.swift */; };
+		CFD0E4512122192200992D10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0E4502122192200992D10 /* ViewController.swift */; };
+		CFD0E4542122192200992D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD0E4522122192200992D10 /* Main.storyboard */; };
+		CFD0E4562122192200992D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD0E4552122192200992D10 /* Assets.xcassets */; };
+		CFD0E4592122192200992D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD0E4572122192200992D10 /* LaunchScreen.storyboard */; };
+		CFD0E4642122192200992D10 /* PhotonCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0E4632122192200992D10 /* PhotonCodeChallengeTests.swift */; };
+		CFD0E46F2122192200992D10 /* PhotonCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0E46E2122192200992D10 /* PhotonCodeChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFD0E4602122192200992D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFD0E4432122192100992D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD0E44A2122192100992D10;
+			remoteInfo = PhotonCodeChallenge;
+		};
+		CFD0E46B2122192200992D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFD0E4432122192100992D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD0E44A2122192100992D10;
+			remoteInfo = PhotonCodeChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFD0E44B2122192200992D10 /* PhotonCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotonCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD0E44E2122192200992D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFD0E4502122192200992D10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFD0E4532122192200992D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFD0E4552122192200992D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFD0E4582122192200992D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFD0E45A2122192200992D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD0E45F2122192200992D10 /* PhotonCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotonCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD0E4632122192200992D10 /* PhotonCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotonCodeChallengeTests.swift; sourceTree = "<group>"; };
+		CFD0E4652122192200992D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD0E46A2122192200992D10 /* PhotonCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotonCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD0E46E2122192200992D10 /* PhotonCodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotonCodeChallengeUITests.swift; sourceTree = "<group>"; };
+		CFD0E4702122192200992D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD0E4482122192100992D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD0E45C2122192200992D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD0E4672122192200992D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFD0E4422122192100992D10 = {
+			isa = PBXGroup;
+			children = (
+				CFD0E44D2122192200992D10 /* PhotonCodeChallenge */,
+				CFD0E4622122192200992D10 /* PhotonCodeChallengeTests */,
+				CFD0E46D2122192200992D10 /* PhotonCodeChallengeUITests */,
+				CFD0E44C2122192200992D10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD0E44C2122192200992D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD0E44B2122192200992D10 /* PhotonCodeChallenge.app */,
+				CFD0E45F2122192200992D10 /* PhotonCodeChallengeTests.xctest */,
+				CFD0E46A2122192200992D10 /* PhotonCodeChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD0E44D2122192200992D10 /* PhotonCodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				CFD0E44E2122192200992D10 /* AppDelegate.swift */,
+				CFD0E4502122192200992D10 /* ViewController.swift */,
+				CFD0E4522122192200992D10 /* Main.storyboard */,
+				CFD0E4552122192200992D10 /* Assets.xcassets */,
+				CFD0E4572122192200992D10 /* LaunchScreen.storyboard */,
+				CFD0E45A2122192200992D10 /* Info.plist */,
+			);
+			path = PhotonCodeChallenge;
+			sourceTree = "<group>";
+		};
+		CFD0E4622122192200992D10 /* PhotonCodeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFD0E4632122192200992D10 /* PhotonCodeChallengeTests.swift */,
+				CFD0E4652122192200992D10 /* Info.plist */,
+			);
+			path = PhotonCodeChallengeTests;
+			sourceTree = "<group>";
+		};
+		CFD0E46D2122192200992D10 /* PhotonCodeChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFD0E46E2122192200992D10 /* PhotonCodeChallengeUITests.swift */,
+				CFD0E4702122192200992D10 /* Info.plist */,
+			);
+			path = PhotonCodeChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD0E44A2122192100992D10 /* PhotonCodeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD0E4732122192200992D10 /* Build configuration list for PBXNativeTarget "PhotonCodeChallenge" */;
+			buildPhases = (
+				CFD0E4472122192100992D10 /* Sources */,
+				CFD0E4482122192100992D10 /* Frameworks */,
+				CFD0E4492122192100992D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotonCodeChallenge;
+			productName = PhotonCodeChallenge;
+			productReference = CFD0E44B2122192200992D10 /* PhotonCodeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFD0E45E2122192200992D10 /* PhotonCodeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD0E4762122192200992D10 /* Build configuration list for PBXNativeTarget "PhotonCodeChallengeTests" */;
+			buildPhases = (
+				CFD0E45B2122192200992D10 /* Sources */,
+				CFD0E45C2122192200992D10 /* Frameworks */,
+				CFD0E45D2122192200992D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD0E4612122192200992D10 /* PBXTargetDependency */,
+			);
+			name = PhotonCodeChallengeTests;
+			productName = PhotonCodeChallengeTests;
+			productReference = CFD0E45F2122192200992D10 /* PhotonCodeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFD0E4692122192200992D10 /* PhotonCodeChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD0E4792122192200992D10 /* Build configuration list for PBXNativeTarget "PhotonCodeChallengeUITests" */;
+			buildPhases = (
+				CFD0E4662122192200992D10 /* Sources */,
+				CFD0E4672122192200992D10 /* Frameworks */,
+				CFD0E4682122192200992D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD0E46C2122192200992D10 /* PBXTargetDependency */,
+			);
+			name = PhotonCodeChallengeUITests;
+			productName = PhotonCodeChallengeUITests;
+			productReference = CFD0E46A2122192200992D10 /* PhotonCodeChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD0E4432122192100992D10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Afnan Mirza";
+				TargetAttributes = {
+					CFD0E44A2122192100992D10 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CFD0E45E2122192200992D10 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFD0E44A2122192100992D10;
+					};
+					CFD0E4692122192200992D10 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFD0E44A2122192100992D10;
+					};
+				};
+			};
+			buildConfigurationList = CFD0E4462122192100992D10 /* Build configuration list for PBXProject "PhotonCodeChallenge" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFD0E4422122192100992D10;
+			productRefGroup = CFD0E44C2122192200992D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD0E44A2122192100992D10 /* PhotonCodeChallenge */,
+				CFD0E45E2122192200992D10 /* PhotonCodeChallengeTests */,
+				CFD0E4692122192200992D10 /* PhotonCodeChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD0E4492122192100992D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD0E4592122192200992D10 /* LaunchScreen.storyboard in Resources */,
+				CFD0E4562122192200992D10 /* Assets.xcassets in Resources */,
+				CFD0E4542122192200992D10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD0E45D2122192200992D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD0E4682122192200992D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD0E4472122192100992D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD0E4512122192200992D10 /* ViewController.swift in Sources */,
+				CFD0E44F2122192200992D10 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD0E45B2122192200992D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD0E4642122192200992D10 /* PhotonCodeChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD0E4662122192200992D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD0E46F2122192200992D10 /* PhotonCodeChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFD0E4612122192200992D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD0E44A2122192100992D10 /* PhotonCodeChallenge */;
+			targetProxy = CFD0E4602122192200992D10 /* PBXContainerItemProxy */;
+		};
+		CFD0E46C2122192200992D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD0E44A2122192100992D10 /* PhotonCodeChallenge */;
+			targetProxy = CFD0E46B2122192200992D10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFD0E4522122192200992D10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD0E4532122192200992D10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFD0E4572122192200992D10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD0E4582122192200992D10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFD0E4712122192200992D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFD0E4722122192200992D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFD0E4742122192200992D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6352S4H426;
+				INFOPLIST_FILE = PhotonCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afnanmirza.PhotonCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFD0E4752122192200992D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6352S4H426;
+				INFOPLIST_FILE = PhotonCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afnanmirza.PhotonCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFD0E4772122192200992D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6352S4H426;
+				INFOPLIST_FILE = PhotonCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afnanmirza.PhotonCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotonCodeChallenge.app/PhotonCodeChallenge";
+			};
+			name = Debug;
+		};
+		CFD0E4782122192200992D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6352S4H426;
+				INFOPLIST_FILE = PhotonCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afnanmirza.PhotonCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotonCodeChallenge.app/PhotonCodeChallenge";
+			};
+			name = Release;
+		};
+		CFD0E47A2122192200992D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6352S4H426;
+				INFOPLIST_FILE = PhotonCodeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afnanmirza.PhotonCodeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotonCodeChallenge;
+			};
+			name = Debug;
+		};
+		CFD0E47B2122192200992D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6352S4H426;
+				INFOPLIST_FILE = PhotonCodeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afnanmirza.PhotonCodeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotonCodeChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD0E4462122192100992D10 /* Build configuration list for PBXProject "PhotonCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD0E4712122192200992D10 /* Debug */,
+				CFD0E4722122192200992D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD0E4732122192200992D10 /* Build configuration list for PBXNativeTarget "PhotonCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD0E4742122192200992D10 /* Debug */,
+				CFD0E4752122192200992D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD0E4762122192200992D10 /* Build configuration list for PBXNativeTarget "PhotonCodeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD0E4772122192200992D10 /* Debug */,
+				CFD0E4782122192200992D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD0E4792122192200992D10 /* Build configuration list for PBXNativeTarget "PhotonCodeChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD0E47A2122192200992D10 /* Debug */,
+				CFD0E47B2122192200992D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFD0E4432122192100992D10 /* Project object */;
+}
