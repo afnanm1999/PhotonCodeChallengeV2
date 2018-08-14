@@ -75,11 +75,11 @@ So to test the app you must first pull the project files and open it in Xcode.
 You shouldn't have to configure anything inside of the application source code. Just go ahead and run it on a simulator and when the app first launches it should have these values already inside the UITextView.
 
 
-3 4 1 2 8 6
-6 1 8 2 7 4
-5 9 3 9 9 5
-8 4 1 3 2 6
-3 7 2 8 6 4
+3 4 1 2 8 6\n
+6 1 8 2 7 4\n
+5 9 3 9 9 5\n
+8 4 1 3 2 6\n
+3 7 2 8 6 4\n
 
 You can just go ahead and click on a UIButton(Submit). This will then show you the expected result of
 
