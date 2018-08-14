@@ -72,7 +72,7 @@ No
 ## How to Use the app
 
 So to test the app you must first pull the project files and open it in Xcode.
-You shouldn't have to configure anything inside of the application source code. Just go ahead and run it on a simulator and when the app first launches it should have these values already inside the UITextView
+You shouldn't have to configure anything inside of the application source code. Just go ahead and run it on a simulator and when the app first launches it should have these values already inside the UITextView.
 
 3 4 1 2 8 6
 6 1 8 2 7 4

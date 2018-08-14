@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CFD0E44F2122192200992D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0E44E2122192200992D10 /* AppDelegate.swift */; };
-		CFD0E4512122192200992D10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0E4502122192200992D10 /* ViewController.swift */; };
-		CFD0E4542122192200992D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD0E4522122192200992D10 /* Main.storyboard */; };
-		CFD0E4562122192200992D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD0E4552122192200992D10 /* Assets.xcassets */; };
-		CFD0E4592122192200992D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD0E4572122192200992D10 /* LaunchScreen.storyboard */; };
+		CFB7AC2821231E5F00A9394E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB7AC1921231E5D00A9394E /* Assets.xcassets */; };
+		CFB7AC2921231E5F00A9394E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB7AC1A21231E5D00A9394E /* LaunchScreen.storyboard */; };
+		CFB7AC2A21231E5F00A9394E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB7AC1C21231E5D00A9394E /* AppDelegate.swift */; };
+		CFB7AC2B21231E5F00A9394E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFB7AC1D21231E5E00A9394E /* Info.plist */; };
+		CFB7AC2C21231E5F00A9394E /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB7AC1F21231E5E00A9394E /* Matrix.swift */; };
+		CFB7AC2D21231E5F00A9394E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB7AC2121231E5E00A9394E /* ViewController.swift */; };
+		CFB7AC2E21231E5F00A9394E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB7AC2321231E5E00A9394E /* Main.storyboard */; };
+		CFB7AC2F21231E5F00A9394E /* MatrixProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB7AC2621231E5F00A9394E /* MatrixProcessor.swift */; };
+		CFB7AC3021231E5F00A9394E /* MatrixParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB7AC2721231E5F00A9394E /* MatrixParser.swift */; };
+		CFB7AC322123211D00A9394E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CFB7AC312123211C00A9394E /* README.md */; };
 		CFD0E4642122192200992D10 /* PhotonCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0E4632122192200992D10 /* PhotonCodeChallengeTests.swift */; };
 		CFD0E46F2122192200992D10 /* PhotonCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0E46E2122192200992D10 /* PhotonCodeChallengeUITests.swift */; };
 /* End PBXBuildFile section */
@@ -34,13 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CFB7AC1921231E5D00A9394E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFB7AC1B21231E5D00A9394E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFB7AC1C21231E5D00A9394E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFB7AC1D21231E5E00A9394E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB7AC1F21231E5E00A9394E /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		CFB7AC2121231E5E00A9394E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFB7AC2421231E5E00A9394E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFB7AC2621231E5F00A9394E /* MatrixProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixProcessor.swift; sourceTree = "<group>"; };
+		CFB7AC2721231E5F00A9394E /* MatrixParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixParser.swift; sourceTree = "<group>"; };
+		CFB7AC312123211C00A9394E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CFD0E44B2122192200992D10 /* PhotonCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotonCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFD0E44E2122192200992D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFD0E4502122192200992D10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CFD0E4532122192200992D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CFD0E4552122192200992D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CFD0E4582122192200992D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CFD0E45A2122192200992D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFD0E45F2122192200992D10 /* PhotonCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotonCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD0E4632122192200992D10 /* PhotonCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotonCodeChallengeTests.swift; sourceTree = "<group>"; };
 		CFD0E4652122192200992D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,9 +83,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CFB7AC1821231E5D00A9394E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFB7AC1921231E5D00A9394E /* Assets.xcassets */,
+				CFB7AC1A21231E5D00A9394E /* LaunchScreen.storyboard */,
+				CFB7AC1C21231E5D00A9394E /* AppDelegate.swift */,
+				CFB7AC1D21231E5E00A9394E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = "../../xcode/new-apps/Zytech Development/CodeChallenges/PhotonCodeChallenge/PhotonCodeChallenge/Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFB7AC1E21231E5E00A9394E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFB7AC1F21231E5E00A9394E /* Matrix.swift */,
+			);
+			name = Model;
+			path = "../../xcode/new-apps/Zytech Development/CodeChallenges/PhotonCodeChallenge/PhotonCodeChallenge/Model";
+			sourceTree = "<group>";
+		};
+		CFB7AC2021231E5E00A9394E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CFB7AC2121231E5E00A9394E /* ViewController.swift */,
+			);
+			name = "View Controller";
+			path = "../../xcode/new-apps/Zytech Development/CodeChallenges/PhotonCodeChallenge/PhotonCodeChallenge/View Controller";
+			sourceTree = "<group>";
+		};
+		CFB7AC2221231E5E00A9394E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFB7AC2321231E5E00A9394E /* Main.storyboard */,
+			);
+			name = View;
+			path = "../../xcode/new-apps/Zytech Development/CodeChallenges/PhotonCodeChallenge/PhotonCodeChallenge/View";
+			sourceTree = "<group>";
+		};
+		CFB7AC2521231E5F00A9394E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CFB7AC2621231E5F00A9394E /* MatrixProcessor.swift */,
+				CFB7AC2721231E5F00A9394E /* MatrixParser.swift */,
+			);
+			name = Helper;
+			path = "../../xcode/new-apps/Zytech Development/CodeChallenges/PhotonCodeChallenge/PhotonCodeChallenge/Helper";
+			sourceTree = "<group>";
+		};
 		CFD0E4422122192100992D10 = {
 			isa = PBXGroup;
 			children = (
+				CFB7AC312123211C00A9394E /* README.md */,
 				CFD0E44D2122192200992D10 /* PhotonCodeChallenge */,
 				CFD0E4622122192200992D10 /* PhotonCodeChallengeTests */,
 				CFD0E46D2122192200992D10 /* PhotonCodeChallengeUITests */,
@@ -97,12 +156,11 @@
 		CFD0E44D2122192200992D10 /* PhotonCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				CFD0E44E2122192200992D10 /* AppDelegate.swift */,
-				CFD0E4502122192200992D10 /* ViewController.swift */,
-				CFD0E4522122192200992D10 /* Main.storyboard */,
-				CFD0E4552122192200992D10 /* Assets.xcassets */,
-				CFD0E4572122192200992D10 /* LaunchScreen.storyboard */,
-				CFD0E45A2122192200992D10 /* Info.plist */,
+				CFB7AC2521231E5F00A9394E /* Helper */,
+				CFB7AC1E21231E5E00A9394E /* Model */,
+				CFB7AC1821231E5D00A9394E /* Supporting Files */,
+				CFB7AC2221231E5E00A9394E /* View */,
+				CFB7AC2021231E5E00A9394E /* View Controller */,
 			);
 			path = PhotonCodeChallenge;
 			sourceTree = "<group>";
@@ -232,9 +290,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD0E4592122192200992D10 /* LaunchScreen.storyboard in Resources */,
-				CFD0E4562122192200992D10 /* Assets.xcassets in Resources */,
-				CFD0E4542122192200992D10 /* Main.storyboard in Resources */,
+				CFB7AC2E21231E5F00A9394E /* Main.storyboard in Resources */,
+				CFB7AC2B21231E5F00A9394E /* Info.plist in Resources */,
+				CFB7AC322123211D00A9394E /* README.md in Resources */,
+				CFB7AC2821231E5F00A9394E /* Assets.xcassets in Resources */,
+				CFB7AC2921231E5F00A9394E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +319,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD0E4512122192200992D10 /* ViewController.swift in Sources */,
-				CFD0E44F2122192200992D10 /* AppDelegate.swift in Sources */,
+				CFB7AC2D21231E5F00A9394E /* ViewController.swift in Sources */,
+				CFB7AC2F21231E5F00A9394E /* MatrixProcessor.swift in Sources */,
+				CFB7AC2C21231E5F00A9394E /* Matrix.swift in Sources */,
+				CFB7AC3021231E5F00A9394E /* MatrixParser.swift in Sources */,
+				CFB7AC2A21231E5F00A9394E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +359,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CFD0E4522122192200992D10 /* Main.storyboard */ = {
+		CFB7AC1A21231E5D00A9394E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CFD0E4532122192200992D10 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CFD0E4572122192200992D10 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFD0E4582122192200992D10 /* Base */,
+				CFB7AC1B21231E5D00A9394E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CFB7AC2321231E5E00A9394E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB7AC2421231E5E00A9394E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -428,7 +491,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6352S4H426;
-				INFOPLIST_FILE = PhotonCodeChallenge/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../xcode/new-apps/Zytech Development/CodeChallenges/PhotonCodeChallenge/PhotonCodeChallenge/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.afnanmirza.PhotonCodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,7 +506,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6352S4H426;
-				INFOPLIST_FILE = PhotonCodeChallenge/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../xcode/new-apps/Zytech Development/CodeChallenges/PhotonCodeChallenge/PhotonCodeChallenge/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.afnanmirza.PhotonCodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
