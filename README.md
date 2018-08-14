@@ -71,8 +71,11 @@ No<br/>
 
 ## How to Use the app
 
-So to test the app you must first pull the project files and open it in Xcode.
-You shouldn't have to configure anything inside of the application source code. Just go ahead and run it on a simulator and when the app first launches it should have these values already inside the UITextView.
+<!--So to test the app you must first clone the project files and open it in Xcode.-->
+<!--You shouldn't have to configure anything inside of the application source code. Just go ahead and run it on a simulator and when the app first launches it should have these values already inside the UITextView.-->
+
+In order to test the app, project files need to be opened in Xcode 9.2<br/>
+There is no need to configure anything inside of the application source code. The project is already configured and can be run directly on simulator of your choice. when the app first launches it should have the values listed below already inside the UITextView. You can also put your custom values inside of the UITextView to further test the app.
 
 
 3 4 1 2 8 6<br/>
@@ -81,13 +84,13 @@ You shouldn't have to configure anything inside of the application source code. 
 8 4 1 3 2 6<br/>
 3 7 2 8 6 4<br/>
 
-You can just go ahead and click on a UIButton(Submit). This will then show you the expected result of
+If you see the values listed above you can go ahead and click on a UIButton(Submit). This will then show you the expected result.
 
 Yes<br/>
 16<br/>
 [1 2 3 4 4 5]<br/>
 
-You can also put your custom values inside of the UITextView to further test the app.
+
 
 ##### Make sure that you don't leave an empty line inside of UITextView.
 #
