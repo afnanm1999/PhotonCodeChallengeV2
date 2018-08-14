@@ -31,43 +31,43 @@ solution.
 ### Example One
 
 #### Input
-3 4 1 2 8 6
-6 1 8 2 7 4
-5 9 3 9 9 5
-8 4 1 3 2 6
-3 7 2 8 6 4
+3 4 1 2 8 6<br/>
+6 1 8 2 7 4<br/>
+5 9 3 9 9 5<br/>
+8 4 1 3 2 6<br/>
+3 7 2 8 6 4<br/>
 
 #### Output
-Yes
-16
-[1 2 3 4 4 5]
+Yes<br/>
+16<br/>
+[1 2 3 4 4 5]<br/>
 
 ### Example Two
 
 #### Input
-3 4 1 2 8 6
-6 1 8 2 7 4
-5 9 3 9 9 5
-8 4 1 3 2 6
-3 7 2 1 2 3
+3 4 1 2 8 6<br/>
+6 1 8 2 7 4<br/>
+5 9 3 9 9 5<br/>
+8 4 1 3 2 6<br/>
+3 7 2 1 2 3<br/>
 
 #### Output
-Yes
-11
-[1 2 1 5 4 5]
+Yes<br/>
+11<br/>
+[1 2 1 5 4 5]<br/>
 
 
 ### Example Three
 
 #### Input
-19 10 19 10 19
-21 23 20 19 12
-20 12 20 11 10
+19 10 19 10 19<br/>
+21 23 20 19 12<br/>
+20 12 20 11 10<br/>
 
 #### Output
-No
-48
-[1 1 1]
+No<br/>
+48<br/>
+[1 1 1]<br/>
 
 ## How to Use the app
 
@@ -75,20 +75,17 @@ So to test the app you must first pull the project files and open it in Xcode.
 You shouldn't have to configure anything inside of the application source code. Just go ahead and run it on a simulator and when the app first launches it should have these values already inside the UITextView.
 
 
-3 4 1 2 8 6
-6 1 8 2 7 4
-#
-5 9 3 9 9 5
-#
-8 4 1 3 2 6
-#
-3 7 2 8 6 4
+3 4 1 2 8 6<br/>
+6 1 8 2 7 4<br/>
+5 9 3 9 9 5<br/>
+8 4 1 3 2 6<br/>
+3 7 2 8 6 4<br/>
 
 You can just go ahead and click on a UIButton(Submit). This will then show you the expected result of
 
-Yes
-16
-[1 2 3 4 4 5]
+Yes<br/>
+16<br/>
+[1 2 3 4 4 5]<br/>
 
 You can also put your custom values inside of the UITextView to further test the app.
 
@@ -114,63 +111,62 @@ Yes<br/>
 ### Sample 2: (6X5 matrix normal flow):
 
 #### Input:
-3 4 1 2 8 6
-6 1 8 2 7 4
-5 9 3 9 9 5
-8 4 1 3 2 6
-3 7 2 1 2 3
-
+3 4 1 2 8 6<br/>
+6 1 8 2 7 4<br/>
+5 9 3 9 9 5<br/>
+8 4 1 3 2 6<br/>
+3 7 2 1 2 3<br/>
 
 
 #### Output:
-Yes
-11
-[1 2 1 5 4 5]
+Yes<br/>
+11<br/>
+[1 2 1 5 4 5]<br/>
 
 ### Sample 3: (5X3 matrix with no path <50)
 
 #### Input:
-19 10 19 10 19
-21 23 20 19 12
-20 12 20 11 10
+19 10 19 10 19<br/>
+21 23 20 19 12<br/>
+20 12 20 11 10<br/>
 
 #### Output:
-No
-48
-[1 1 1]
+No<br/>
+48<br/>
+[1 1 1]<br/>
 
 ### Sample 4: (1X5 matrix)
 
 #### Input:
-5 8 5 3 5
+5 8 5 3 5<br/>
 
 #### Output:
-Yes
-26
-[1 1 1 1 1]
+Yes<br/>
+26<br/>
+[1 1 1 1 1]<br/>
 
 ### Sample 5: (5X1 matrix)
 #### Input:
-5
-8
-5
-3
-5
+5<br/>
+8<br/>
+5<br/>
+3<br/>
+5<br/>
 
 #### Output:
-Yes
-3
-[4]
+Yes<br/>
+3<br/>
+[4]<br/>
 
 ### Sample 6: (Non numeric input, Optional)
 
 #### Input:
-5 4 H
-8 M 7
-5 7 5
+5 4 H<br/>
+8 M 7<br/>
+5 7 5<br/>
 
 #### Output:
-Invalid matrix
+Invalid matrix<br/>
 
 ### Sample 7: (No input - Optional)
 
@@ -179,74 +175,74 @@ Invalid matrix
 
 
 #### Output:
-Invalid matrix
+Invalid matrix<br/>
 
 ### Sample 8: (Starting with >50)
 #### Input:
-69 10 19 10 19
-51 23 20 19 12
-60 12 20 11 10
+69 10 19 10 19<br/>
+51 23 20 19 12<br/>
+60 12 20 11 10<br/>
 
 #### Output:
-No
-0
-[]
+No<br/>
+0<br/>
+[]<br/>
 
 ### Sample 9: (One value >50)
 
 #### Input:
-60 3 3 6
-6 3 7 9
-5 6 8 3
+60 3 3 6<br/>
+6 3 7 9<br/>
+5 6 8 3<br/>
 
 #### Output:
-Yes
-14
-[3,2 1 3]
+Yes<br/>
+14<br/>
+[3,2 1 3]<br/>
 
 ### Sample 10: (Negative values)
 #### Input:
-6,3,-5,9
--5,2,4,10
-3,-2,6,10
-6,-1,-2,10
+6,3,-5,9<br/>
+-5,2,4,10<br/>
+3,-2,6,10<br/>
+6,-1,-2,10<br/>
 
 ####  Output:
-Yes
-0
-[2,3 4 1]
+Yes<br/>
+0<br/>
+[2,3 4 1]<br/>
 
 ### Sample 11: Complete path vs. lower cost incomplete path
 #### Input:
-51 51
-0 51
-51 51
-5 5
+51 51<br/>
+0 51<br/>
+51 51<br/>
+5 5<br/>
 
 #### Expected output:
-Yes
-10
-4 4
+Yes<br/>
+10<br/>
+4 4<br/>
 
 ### Sample 12: Longer incomplete path vs. shorter lower cost incomplete path
 #### Input:
-51 51 51
-0 51 51
-51 51 51
-5 5 51
+51 51 51<br/>
+0 51 51<br/>
+51 51 51<br/>
+5 5 51<br/>
 
 #### Expected output:
-No
-10
-4 4
+No<br/>
+10<br/>
+4 4<br/>
 
 ### Sample 13: Large number of columns
 #### Input:
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1<br/>
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2<br/>
 
 #### Expected output:
-Yes
-20
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+Yes<br/>
+20<br/>
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1<br/>
 
